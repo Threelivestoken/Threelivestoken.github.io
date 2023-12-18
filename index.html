@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Search Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="center-container" id="center-container">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="performSearch()">Search</button>
+    </div>
+  </div>
+
+  <div class="content1" id="content1">
+    <h2>Search Results</h2>
+    <ul>
+      <li><a href="#" onclick="showContent()">Example Website 1</a></li>
+      <li><a href="#" onclick="showContent()">Example Website 2</a></li>
+      <li><a href="#" onclick="showContent()">Example Website 3</a></li>
+    </ul>
+  </div>
+
+  <div class="content2" id="content2">
+    <h2>Have you ever thought about what makes websites popular? Is it the content of the websites? The structure of the page? The relevance to the current time? Many people(myself included) don’t pay attention to many websites that we come across when searching for information, this is usually. What do you see first when searching for a webpage; the website’s name, if you can’t get people to click on your link in the first place what’s the point to the rest. How does the length of a website’s name relate to its place in google search results?</h2>
+    <!-- Scatterplot -->
+    
+    <svg id="scatterplot" width="500" height="300"></svg>
+    <svg id="bar-chart" width="500" height="300"></svg>
+  </div>
+  
+  <script src="script.js"></script>
+
+  
+</body>
+
+</html>
