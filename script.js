@@ -75,12 +75,12 @@ const barChartData = [
   
     const xScaleBarChart = d3.scaleBand()
                              .domain(barChartData.map(d => d.label))
-                             .range([0, 500])
+                             .range([0, 300])
                              .padding(0.1);
   
     const yScaleBarChart = d3.scaleLinear()
                              .domain([0, d3.max(barChartData, d => d.value)])
-                             .range([300, 0]);
+                             .range([180, 0]);
   
     // Add bars
     svgBarChart.selectAll("rect")
@@ -104,9 +104,9 @@ const barChartData = [
   const createScatterplot = () => {
     const svgScatterplot = d3.select("#scatterplot");
   
-    const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-    const width = 500 - margin.left - margin.right;
-    const height = 300 - margin.top - margin.bottom;
+    const margin = { top: 12, right: 12, bottom: 18, left: 24 };
+    const width = 300 - margin.left - margin.right;
+    const height = 180 - margin.top - margin.bottom;
 
     const xScaleScatterplot = d3.scaleLinear()
         .domain([0, d3.max(scatterplotData, d => d.x)])
