@@ -60,7 +60,10 @@ body {
     box-shadow: 0vw 0vw 1.0vw rgba(0, 0, 0, 0.1);
   }
   h2{font-size: 4vw;}
-  .content2 {
+  
+.content2 {
+    font-size: 4vw;
+    
     display: none;
     margin-top: 5vw;
     padding-left: 5vw;
