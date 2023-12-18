@@ -5,11 +5,12 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centered Search Bar</title>
+  <title></title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    
 <div id="stuffcentered">
   <div class="center-container" id="center-container">
     <div class="search-container">
@@ -27,10 +28,11 @@
     </ul>
   </div>
 </div>
-  <div class="content2" id="content2">
-    <h2>Have you ever thought about what makes websites popular? Is it the content of the websites? The structure of the page? The relevance to the current time? Many people(myself included) don’t pay attention to many websites that we come across when searching for information, this is usually. What do you see first when searching for a webpage; the website’s name, if you can’t get people to click on your link in the first place what’s the point to the rest. How does the length of a website’s name relate to its place in google search results?</h2>
+<div class="content2" id="content2">
+    <h1>Website name length & popularity</h1>
+    <p>Have you ever thought about what makes websites popular? Is it the content of the websites? The structure of the page? The relevance to the current time? Many people(myself included) don’t pay attention to many websites that we come across when searching for information, this is usually. What do you see first when searching for a webpage; the website’s name, if you can’t get people to click on your link in the first place what’s the point to the rest. How does the length of a website’s name relate to its place in google search results?</p>
     <!-- Scatterplot -->
-    
+
     <svg id="scatterplot" width="300" height="180"></svg>
     <p>This scatterplot is a bit hard to understand without an understanding of what the axes represent; the x axis the the place in the youtube search result that they show up, the y axis the the length of the face value url.</p>
     <p>A particular point of interest is when the letter count is 6, this might be a misenter on the part of the person who collected this dataset(myself). This point of interest is from a website that has a url of "bi.com", this website seems to be from a technology that sells tracking watches & other things to help people get back into their lives.</p>
@@ -39,8 +41,8 @@
     <svg id="bar-chart" width="300" height="180"></svg>
     <p>This barchart is an average of the lengths in each seperate search result category, the less popular a website is, the more the results vary, this happens in both the scatterplot & barplot. The highest and lowest points happen to match the points of interest from before, this is not a coincidence; my data is too few, any outliers heavily skew the averages.</p>
 
-    <h2>There is a correlation between the length of urls and their popularity(where they show up on google search results), the most popular websites tend to have a word length between 17 & 25 characters(not including https://), as the popularity decreases the more that the word count varies. There are a few outliers, there is a highly popular website with a length of 10 letters & a website that has only 7 letters but is average in popularity. It seems as if most popular websites fall into a range, this may be because popular websites copy each other & converge. Web designers may use this to help them when making a url for their website, they may want to have a "first-impression" letter count between 15-20 words.</h2>
-  </div>
+    <p>There is a correlation between the length of urls and their popularity(where they show up on google search results), the most popular websites tend to have a word length between 17 & 25 characters(not including https://), as the popularity decreases the more that the word count varies. There are a few outliers, there is a highly popular website with a length of 10 letters & a website that has only 7 letters but is average in popularity. It seems as if most popular websites fall into a range, this may be because popular websites copy each other & converge. Web designers may use this to help them when making a url for their website, they may want to have a "first-impression" letter count between 15-20 words.</p>
+</div>
   
   <script src="script.js"></script>
 
