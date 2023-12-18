@@ -41,9 +41,17 @@ function performSearch() {
 
 /*scatterplot*/
 const barChartData = [
-    { label: 'Category A', value: 25 },
-    { label: 'Category B', value: 40 },
-    { label: 'Category C', value: 15 }
+    { label: 'Search result 1', value: 19.2 },
+    { label: 'Search result 2', value: 17.6 },
+    { label: 'Search result 3', value: 17.6 },
+    { label: 'Search result 4', value: 18.0 },
+    { label: 'Search result 5', value: 20.6 },
+    { label: 'Search result 6', value: 14.2 },
+    { label: 'Search result 7', value: 17.2 },
+    { label: 'Search result 8', value: 16.2 },
+    { label: 'Search result 9', value: 21.0 },
+    { label: 'Search result 10', value: 14.4 }
+
     // ... add more data points as needed
   ];
   

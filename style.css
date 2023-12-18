@@ -1,44 +1,49 @@
 ﻿body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    height: 100vh;
-    background-color: #f1f1f1;
-  }
-  
-#centeredstuff {
 
+    /*margin: 0;
+    height: 100vh;
+    align-items: center;
+    background-color: #f1f1f1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    
+  }
+  
+#stuffcentered {
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
-
+  
   .center-container {
     text-align: center;
   }
   
   .search-container {
     display: flex;
-    max-width: 400px;
+    max-width: 60.0vw;
     background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+    border: .1vw solid #ccc;
+    border-radius: 2.0vw;
     overflow: hidden;
   }
   
   #searchInput {
     flex: 1;
     border: none;
-    padding: 10px;
-    font-size: 16px;
+    padding: 1.0vw;
+    font-size: 2vw;
     outline: none;
   }
   
   button {
-    padding: 10px;
+    padding: 1.0vw;
+    font-size: 1.6vw;
     background-color: #4285f4;
     color: #fff;
     border: none;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 20vw 20vw 0;
     cursor: pointer;
   }
   
@@ -48,17 +53,21 @@
   
   .content1 {
     display: none;
-    margin-top: 20px;
+    margin-top: 2.0vw;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2.0vw;
+    border-radius: 1.0vw;
+    box-shadow: 0vw 0vw 1.0vw rgba(0, 0, 0, 0.1);
   }
-  
+  h2{font-size: 2vw;}
   .content2 {
     display: none;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+
+    
     /*background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);*/
@@ -84,9 +93,9 @@ h1 {
   .tooltip {
     position: absolute;
     background-color: #f0f0f0;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 5vw;
+    border: .25vw solid #ccc;
+    border-radius: 1.25vw;
     pointer-events: none;
     opacity: 0;
   }
